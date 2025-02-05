@@ -4,85 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Greek Yoghurt</title>
   </head>
-  <style>
-    div {
-      background: radial-gradient(
-        circle at 20% 30%,
-        rgb(137, 247, 254) 0%,
-        rgb(102, 166, 255) 90%
-      );
-      margin: 0 auto;
-      max-width: 800px;
-    }
-    h1 {
-      text-align: center;
-      color: #1e37ff;
-      padding-top: 20px;
-    }
-    h2 {
-      text-align: center;
-      padding: 10px 10px 10px 10px;
-      border-radius: 20px;
-      border: 1px solid blue;
-      margin: auto 0;
-      margin-right: 200px;
-      margin-left: 200px;
-      color: #3690f0;
-    }
-    .image {
-      display: block;
-      margin: 0 auto;
-      width: 250px;
-      border-radius: 10px;
-      border: 5px;
-      padding: 5px;
-      background-color: cornflowerblue;
-      margin-top: 10px;
-      max-width: 100%;
-    }
-    p {
-      font-size: 15px;
-      line-height: 20px;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      word-spacing: normal;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-    button {
-      font-size: 15px;
-      display: block;
-      padding: 10px 20px;
-      margin: 20px auto;
-      color: black;
-      background: #3690f0;
-      border-radius: 30px;
-      cursor: pointer;
-      border: thin #4facfe;
-      transition: all 200ms ease-out;
-    }
-    button:hover {
-      background: rgb(35, 35, 150);
-      color: brown;
-    }
-    .benefits {
-      text-align: center;
-      display: block;
-      text-decoration: none;
-    }
-    .benefits:hover {
-      text-decoration: underline;
-      color: rgb(117, 7, 7);
-      cursor: pointer;
-    }
-    span {
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-style: italic;
-      font-size: 15px;
-    }
-  </style>
+
   <body>
     <div>
       <h1>
@@ -98,16 +23,19 @@
         alt="greek yoghurt"
         class="image"
       />
-      <p>
-        Yogurt is one of the most common dairy products on the market today, for
-        good reason. Yogurt is a creamy, tasty addition to lots of meals. Greek
-        yogurt is starting to overtake traditional yogurt in popularity thanks
-        to its rich flavor and thick texture. Greek yogurt has been strained to
-        remove extra liquid and whey. The result is a thicker, denser final
-        product with a higher concentration of protein and probiotics. This
-        thick, protein-rich yogurt offers a wide variety of potential uses in
-        savory and sweet recipes. It can also be eaten plain.
-      </p>
+      <section>
+        <p>
+          Yogurt is one of the most common dairy products on the market today,
+          for good reason. Yogurt is a creamy, tasty addition to lots of meals.
+          Greek yogurt is starting to overtake traditional yogurt in popularity
+          thanks to its rich flavor and thick texture. Greek yogurt has been
+          strained to remove extra liquid and whey. The result is a thicker,
+          denser final product with a higher concentration of protein and
+          probiotics. This thick, protein-rich yogurt offers a wide variety of
+          potential uses in savory and sweet recipes. It can also be eaten
+          plain.
+        </p>
+      </section>
       <a
         href="https://www.webmd.com/diet/health-benefits-greek-yogurt"
         target="_blank"
@@ -116,8 +44,10 @@
         Read more on benefits
       </a>
       <hr />
-      <button><strong> ORDER FOR YOURS 🥛!!!</strong></button>
-      <span>This code is built by habybheart😀</span>
+      <footer>
+        <button><strong> ORDER FOR YOURS 🥛!!!</strong></button>
+        <p class="footer-note">This code is built by habybheart😀</p>
+      </footer>
     </div>
     <script>
       function orderNow() {
