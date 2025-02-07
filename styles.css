@@ -49,8 +49,10 @@ th {
   border-collapse: collapse;
   font-family: cursive;
 }
-th {
+th,
+caption {
   font-size: larger;
+  font-family: cursive;
 }
 button {
   font-size: 15px;
