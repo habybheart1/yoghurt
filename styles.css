@@ -86,3 +86,8 @@ button:hover {
   font-style: italic;
   font-size: 15px;
 }
+.shecodes-logo {
+  border-radius: 25%;
+  border: 2px solid blue;
+  width: 150px;
+}
